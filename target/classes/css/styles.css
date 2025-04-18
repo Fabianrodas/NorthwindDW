@@ -1,0 +1,75 @@
+#salir {
+    -fx-background-color: transparent;
+    -fx-text-fill: grey;
+}
+
+#salir:hover {
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-cursor: hand;
+}
+
+.grid-cell {
+    -fx-background-color: #272952;
+    -fx-border-width: 1px;
+    -fx-border-radius: 10px;
+    -fx-padding: 10px;
+    -fx-pref-width: 300px;
+    -fx-pref-height: 215px;
+}
+
+.chart {
+    -fx-border-width: 2px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+.chart-plot-background {
+    -fx-background-color: transparent;
+    -fx-background-insets: 1px;
+    -fx-background-radius: 50px;
+}
+
+.axis-label {
+    -fx-text-fill: #ffffff;
+    -fx-font-family: "Arial";
+    -fx-font-size: 10px;
+}
+
+.axis-tick-label {
+    -fx-text-fill: #a3a3a3;
+    -fx-font-family: "Arial";
+    -fx-font-size: 8px;
+}
+
+.chart-legend {
+    -fx-text-fill: #ffffff;
+    -fx-font-family: "Arial";
+    -fx-font-size: 10px;
+}
+
+.chart-title {
+    -fx-text-fill: #ffffff;
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-padding: 10px 0 20px 0;
+}
+.chart-pie-label {
+    -fx-font-family: "Arial";
+    -fx-font-size: 8px;
+    -fx-fill: white;
+}
+
+.button {
+    -fx-background-color: #272952;
+    -fx-text-fill: white;
+}
+
+.button:hover {
+    -fx-background-color: #2C2D46;
+    -fx-text-fill: #e9c46a;
+    -fx-cursor: hand;
+}
+
